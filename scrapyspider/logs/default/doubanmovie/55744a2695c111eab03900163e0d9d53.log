@@ -1,0 +1,156 @@
+2020-05-14 17:00:23 [scrapy.utils.log] INFO: Scrapy 2.0.1 started (bot: spiderV1)
+2020-05-14 17:00:23 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 20.3.0, Python 3.7.1 (default, Mar 24 2020, 11:45:49) - [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core
+2020-05-14 17:00:23 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2020-05-14 17:00:23 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'spiderV1',
+ 'COOKIES_ENABLED': False,
+ 'DOWNLOAD_DELAY': 1,
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'HTTPCACHE_STORAGE': 'scrapy_splash.SplashAwareFSCacheStorage',
+ 'LOG_FILE': 'logs/default/doubanmovie/55744a2695c111eab03900163e0d9d53.log',
+ 'NEWSPIDER_MODULE': 'spiderV1.spiders',
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['spiderV1.spiders']}
+2020-05-14 17:00:23 [scrapy.extensions.telnet] INFO: Telnet Password: 66e2d16bc4db45c8
+2020-05-14 17:00:23 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-14 17:00:23 [doubanmovie] INFO: Reading start URLs from redis key 'doubanmovie:spider:strat_urls' (batch size: 16, encoding: utf-8
+2020-05-14 17:00:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'spiderV1.middlewares.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'spiderV1.middlewares.ScrapytestDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-14 17:00:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-14 17:00:24 [py.warnings] WARNING: /root/spider/scrapyspider/spiderV1/pipelines.py:80: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  temp = yaml.load(f.read())
+
+2020-05-14 17:00:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['spiderV1.pipelines.SaveDataToFile']
+2020-05-14 17:00:24 [scrapy.core.engine] INFO: Spider opened
+2020-05-14 17:00:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:00:24 [doubanmovie] INFO: Spider opened: doubanmovie
+2020-05-14 17:00:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-05-14 17:00:24 [doubanmovie] DEBUG: Read 2 requests from 'doubanmovie:spider:strat_urls'
+2020-05-14 17:00:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0> (referer: None)
+2020-05-14 17:00:25 [scrapy_redis.dupefilter] DEBUG: Filtered duplicate request <GET https://movie.douban.com/subject/33420285/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2020-05-14 17:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0)
+2020-05-14 17:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0> (referer: None)
+2020-05-14 17:00:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20)
+2020-05-14 17:00:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0)
+2020-05-14 17:00:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40)
+2020-05-14 17:00:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20)
+2020-05-14 17:00:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60)
+2020-05-14 17:00:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40)
+2020-05-14 17:00:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80)
+2020-05-14 17:00:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60)
+2020-05-14 17:00:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100)
+2020-05-14 17:00:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80)
+2020-05-14 17:00:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120)
+2020-05-14 17:00:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100)
+2020-05-14 17:00:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140)
+2020-05-14 17:00:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120)
+2020-05-14 17:00:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160)
+2020-05-14 17:00:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140)
+2020-05-14 17:00:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=200> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180)
+2020-05-14 17:00:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160)
+2020-05-14 17:00:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=200> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180)
+2020-05-14 17:00:59 [doubanmovie] DEBUG: Read 2 requests from 'doubanmovie:spider:strat_urls'
+2020-05-14 17:00:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0> (referer: None)
+2020-05-14 17:01:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0> (referer: None)
+2020-05-14 17:01:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0)
+2020-05-14 17:01:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0)
+2020-05-14 17:01:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20)
+2020-05-14 17:01:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20)
+2020-05-14 17:01:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40)
+2020-05-14 17:01:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40)
+2020-05-14 17:01:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60)
+2020-05-14 17:01:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60)
+2020-05-14 17:01:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80)
+2020-05-14 17:01:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80)
+2020-05-14 17:01:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100)
+2020-05-14 17:01:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100)
+2020-05-14 17:01:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120)
+2020-05-14 17:01:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120)
+2020-05-14 17:01:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140)
+2020-05-14 17:01:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140)
+2020-05-14 17:01:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160)
+2020-05-14 17:01:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160)
+2020-05-14 17:01:24 [scrapy.extensions.logstats] INFO: Crawled 42 pages (at 42 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:01:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=200> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180)
+2020-05-14 17:01:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=200> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180)
+2020-05-14 17:02:24 [scrapy.extensions.logstats] INFO: Crawled 44 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:03:19 [doubanmovie] DEBUG: Read 2 requests from 'doubanmovie:spider:strat_urls'
+2020-05-14 17:03:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0> (referer: None)
+2020-05-14 17:03:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0> (referer: None)
+2020-05-14 17:03:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0)
+2020-05-14 17:03:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0)
+2020-05-14 17:03:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20)
+2020-05-14 17:03:24 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:03:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=20)
+2020-05-14 17:03:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40)
+2020-05-14 17:03:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=40)
+2020-05-14 17:03:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60)
+2020-05-14 17:03:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=60)
+2020-05-14 17:03:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80)
+2020-05-14 17:03:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=80)
+2020-05-14 17:03:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100)
+2020-05-14 17:03:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=100)
+2020-05-14 17:03:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120)
+2020-05-14 17:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=120)
+2020-05-14 17:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140)
+2020-05-14 17:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=140)
+2020-05-14 17:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160)
+2020-05-14 17:03:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=160)
+2020-05-14 17:03:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=200> (referer: https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180)
+2020-05-14 17:03:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=200> (referer: https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=180)
+2020-05-14 17:04:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 17 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:05:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:06:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:07:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:08:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:09:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:10:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:11:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:12:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:13:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:14:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:15:24 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-14 17:15:53 [scrapy.crawler] INFO: Received SIGTERM, shutting down gracefully. Send again to force 
+2020-05-14 17:15:53 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2020-05-14 17:15:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 38058,
+ 'downloader/request_count': 66,
+ 'downloader/request_method_count/GET': 66,
+ 'downloader/response_bytes': 112497,
+ 'downloader/response_count': 66,
+ 'downloader/response_status_count/200': 66,
+ 'elapsed_time_seconds': 929.650925,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2020, 5, 14, 9, 15, 53, 688305),
+ 'log_count/DEBUG': 70,
+ 'log_count/INFO': 28,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 73199616,
+ 'memusage/startup': 69918720,
+ 'request_depth_max': 11,
+ 'response_received_count': 66,
+ 'scheduler/dequeued/redis': 66,
+ 'scheduler/enqueued/redis': 66,
+ 'start_time': datetime.datetime(2020, 5, 14, 9, 0, 24, 37380)}
+2020-05-14 17:15:53 [scrapy.core.engine] INFO: Spider closed (shutdown)

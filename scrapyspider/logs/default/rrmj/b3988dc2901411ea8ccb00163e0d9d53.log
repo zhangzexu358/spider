@@ -1,0 +1,540 @@
+2020-05-07 11:42:10 [scrapy.utils.log] INFO: Scrapy 2.0.1 started (bot: spiderV1)
+2020-05-07 11:42:10 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 20.3.0, Python 3.7.1 (default, Mar 24 2020, 11:45:49) - [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core
+2020-05-07 11:42:10 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2020-05-07 11:42:10 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'spiderV1',
+ 'COOKIES_ENABLED': False,
+ 'DOWNLOAD_DELAY': 2,
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'HTTPCACHE_STORAGE': 'scrapy_splash.SplashAwareFSCacheStorage',
+ 'LOG_FILE': 'logs/default/rrmj/b3988dc2901411ea8ccb00163e0d9d53.log',
+ 'NEWSPIDER_MODULE': 'spiderV1.spiders',
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['spiderV1.spiders']}
+2020-05-07 11:42:10 [scrapy.extensions.telnet] INFO: Telnet Password: 4a60e2f7148bab89
+2020-05-07 11:42:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-07 11:42:10 [rrmj] INFO: Reading start URLs from redis key 'rrmj:spider:strat_urls' (batch size: 16, encoding: utf-8
+2020-05-07 11:42:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'spiderV1.middlewares.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'spiderV1.middlewares.ScrapytestDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-07 11:42:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-07 11:42:10 [py.warnings] WARNING: /root/spider/scrapyspider/spiderV1/pipelines.py:80: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  temp = yaml.load(f.read())
+
+2020-05-07 11:42:10 [scrapy.middleware] INFO: Enabled item pipelines:
+['spiderV1.pipelines.SaveDataToFile']
+2020-05-07 11:42:10 [scrapy.core.engine] INFO: Spider opened
+2020-05-07 11:42:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-07 11:42:10 [rrmj] INFO: Spider opened: rrmj
+2020-05-07 11:42:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6025
+2020-05-07 11:42:10 [rrmj] DEBUG: Read 1 requests from 'rrmj:spider:strat_urls'
+2020-05-07 11:42:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://api.rr.tv/v3plus/index/channel> (referer: None)
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1912',
+ 'sectionImg': '',
+ 'sectionName': '看剧鉴渣男手撕不心软'}
+2020-05-07 11:42:11 [scrapy_redis.dupefilter] DEBUG: Filtered duplicate request <GET https://www.douban.com/search?q=%E5%A4%AB%E5%A6%BB%E7%9A%84%E4%B8%96%E7%95%8C> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1917',
+ 'sectionImg': '',
+ 'sectionName': '抖音爆火洗脑剧'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1904',
+ 'sectionImg': '',
+ 'sectionName': '台剧新来袭！！'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1244',
+ 'sectionImg': '',
+ 'sectionName': '致我们甜甜的恋爱时光'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_822',
+ 'sectionImg': '',
+ 'sectionName': '细思极恐 谁是凶手？'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1926',
+ 'sectionImg': '',
+ 'sectionName': '力推！豆瓣高分推荐'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1927',
+ 'sectionImg': '',
+ 'sectionName': '深夜舔屏福利'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1646',
+ 'sectionImg': '',
+ 'sectionName': '急诊室的人间冷暖'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1903',
+ 'sectionImg': '',
+ 'sectionName': '恶魔在人间'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1693',
+ 'sectionImg': '',
+ 'sectionName': '病毒藏在每个角落'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_742',
+ 'sectionImg': '',
+ 'sectionName': '热剧回归！'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_989',
+ 'sectionImg': '',
+ 'sectionName': '腐眼看人基'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1883',
+ 'sectionImg': '',
+ 'sectionName': '吃货必备！这些纪录片很“下饭”'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1399',
+ 'sectionImg': '',
+ 'sectionName': '他改变了世界'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1729',
+ 'sectionImg': '',
+ 'sectionName': '【电影】获奖佳片集结'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1405',
+ 'sectionImg': '',
+ 'sectionName': '幕后更精彩'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_745',
+ 'sectionImg': '',
+ 'sectionName': '本周新剧'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1431',
+ 'sectionImg': '',
+ 'sectionName': 'LGBT人生纪实 '}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1416',
+ 'sectionImg': '',
+ 'sectionName': '怪奇世界物语'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1421',
+ 'sectionImg': '',
+ 'sectionName': '笑到飞起的脱口秀'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1295',
+ 'sectionImg': '',
+ 'sectionName': '巨星的诞生'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1425',
+ 'sectionImg': '',
+ 'sectionName': '大家都在看'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1657',
+ 'sectionImg': '',
+ 'sectionName': '奥斯卡最佳纪录片'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_1005',
+ 'sectionImg': '',
+ 'sectionName': '德国之声特辑'}
+2020-05-07 11:42:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.rr.tv/v3plus/index/channel>
+{'data_type': 'section',
+ 'sectionId': 'rrmj_747',
+ 'sectionImg': '',
+ 'sectionName': '完结力推'}
+2020-05-07 11:42:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E5%A4%8D%E4%BB%87+%E7%AC%AC%E4%B8%80%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/5969409/> (referer: https://www.douban.com/search?q=%E5%A4%8D%E4%BB%87+%E7%AC%AC%E4%B8%80%E5%AD%A3)
+2020-05-07 11:42:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/5969409/>
+{'cover': 'http://img.rr.tv/album/20180820/o_1534746758243.jpg',
+ 'data_type': 'movie',
+ 'id': 'rrmj_179',
+ 'intro': '风景秀丽的海滨小镇汉普顿，是一个为蔚蓝大海所包围的权贵聚集区。觥筹交错，纸醉金迷，莺歌燕语，上流社会的人们沉湎在看似永无止境的富足快乐氛围中，殊不知危险将近。美丽女孩艾米丽·索恩（艾米丽·范坎普 '
+          'Emily Van Camp '
+          '饰）租下一幢靠海的房子，这里似乎充满了其儿时的记忆，只是记忆中多了几分伤感与痛苦。不久，艾米丽结识了帅气的丹尼尔（乔舒华·鲍曼 '
+          'Joshua Bowman 饰），格雷森家族的公子，其母亲维多利亚（玛德琳·斯托 Madeleine Stowe '
+          '饰）即是家族内当之无愧的领导者，也是汉普顿众所瞩目的风云人物。艾米丽有条不紊地融入格雷森家族，展开了一段绵亘十七年之久的血腥复仇……                                                                    \u3000\u3000'
+          '本片根据大仲马的经典名作《基督山伯爵》改编。',
+ 'is_new': False,
+ 'name': '复仇第一季',
+ 'platforms': '',
+ 'publishdate': '2011-09-21',
+ 'rate': 8.0,
+ 'sectionid': 'rrmj_1912',
+ 'tags': ['剧情'],
+ 'type': 'tv',
+ 'url': 'https://movie.douban.com/subject/5969409/'}
+2020-05-07 11:42:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E7%BB%9D%E5%AF%B9%E9%9B%B6%E5%BA%A6+%E7%AC%AC%E4%B8%89%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:15 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://movie.douban.com/subject/757409475/> (referer: https://www.douban.com/search?q=%E7%BB%9D%E5%AF%B9%E9%9B%B6%E5%BA%A6+%E7%AC%AC%E4%B8%89%E5%AD%A3)
+2020-05-07 11:42:15 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://movie.douban.com/subject/757409475/>: HTTP status code is not handled or not allowed
+2020-05-07 11:42:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E4%BA%BF%E4%B8%87+%E7%AC%AC%E4%BA%94%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E7%BB%9D%E5%AF%B9%E9%9B%B6%E5%BA%A6+%E7%AC%AC%E5%9B%9B%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/34880999/> (referer: https://www.douban.com/search?q=%E7%BB%9D%E5%AF%B9%E9%9B%B6%E5%BA%A6+%E7%AC%AC%E5%9B%9B%E5%AD%A3)
+2020-05-07 11:42:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/34880999/>
+{'cover': 'http://img.rr.tv/cover/20200107/o_1578364468430.jpg',
+ 'data_type': 'movie',
+ 'id': 'rrmj_16975',
+ 'intro': '由泽村一树担任主角的《绝对零度2018》是富士台继《cb3》后睽别一年重上收视双位数收视率的第一部作品，也是月9复活的开端，并在2019年纽约电影节获得电视剧部门铜奖，口碑与收视双赢。                                                                    \u3000\u3000'
+          '《绝对零度之防犯未然2》的开始，泽村一树饰演的井泽范人肩负著“未然犯罪搜查系统的实用化”的任务，系统会将国民的所有的个人资讯与全国的监视器回传的影像等进行分析。本季故事将从官邸发佈进入紧急状态的场景开始，在涉谷、新宿、霞关等多个地方都被设置了最大级别的警戒爆裂物，时序再拉回几个月前。                                                                    \u3000\u3000'
+          '本田翼饰演的小田切参与搜查的在进入搜查爆炸物的房间里，发现泽村一树饰演的井泽手持枪支流著泪，面前是位遭枪杀的女性。',
+ 'is_new': False,
+ 'name': '绝对零度第四季',
+ 'platforms': '',
+ 'publishdate': '2020-01-06',
+ 'rate': 7.5,
+ 'sectionid': 'rrmj_742',
+ 'tags': ['剧情', '悬疑', '犯罪'],
+ 'type': 'tv',
+ 'url': 'https://movie.douban.com/subject/34880999/'}
+2020-05-07 11:42:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E5%A8%98%E5%A8%98%E8%85%94%E7%9A%84%E6%97%A5%E8%AE%B0+%E7%AC%AC%E4%BA%8C%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E8%A1%97%E5%A4%B4%E7%BE%8E%E9%A3%9F+%E7%AC%AC%E4%B8%80%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/33394370/> (referer: https://www.douban.com/search?q=%E8%A1%97%E5%A4%B4%E7%BE%8E%E9%A3%9F+%E7%AC%AC%E4%B8%80%E5%AD%A3)
+2020-05-07 11:42:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/33394370/>
+{'cover': 'http://img.rr.tv/album/20190424/o_1556105376166.jpg',
+ 'data_type': 'movie',
+ 'id': 'rrmj_14665',
+ 'intro': '《街边有食神》（Netflix官方译名）由《主厨的餐桌》的创剧人打造，本片带领观众前往世界上最具活力的几个城市，探索各地丰富的街头美食文化。从新加坡的小贩摊位到印度的餐车，第一季共探索了亚洲的九个国家/地区。每一集重点讲述了关于坚持和文化的故事，正是这些故事为每个国家/地区的美食注入了活力',
+ 'is_new': False,
+ 'name': '街头美食第一季',
+ 'platforms': '',
+ 'publishdate': '2019-04-26',
+ 'rate': 7.6,
+ 'sectionid': 'rrmj_1883',
+ 'tags': ['纪录片'],
+ 'type': 'tv',
+ 'url': 'https://movie.douban.com/subject/33394370/'}
+2020-05-07 11:42:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E9%BE%99%E7%8E%8B%E5%AD%90+%E7%AC%AC%E4%BA%8C%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/30454143/> (referer: https://www.douban.com/search?q=%E9%BE%99%E7%8E%8B%E5%AD%90+%E7%AC%AC%E4%BA%8C%E5%AD%A3)
+2020-05-07 11:42:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/30454143/>
+{'cover': 'http://img.rr.tv/album/20190214/o_1550136840169.jpg',
+ 'data_type': 'movie',
+ 'id': 'rrmj_14116',
+ 'intro': '第二季共九集，继续讲述瑞拉、卡勒姆和艾斯兰在沙迪亚的冒险经历。但是这段旅程并不顺利：每走一步，他们都将遭受来自新旧敌友的挑战。他们在信任与背叛之间挣扎，直面邪恶的龙，抵御黑魔法的诱惑，还要保护刚孵化的龙王子阿兹。',
+ 'is_new': False,
+ 'name': '龙王子第二季',
+ 'platforms': '',
+ 'publishdate': '2019-02-15',
+ 'rate': 8.1,
+ 'sectionid': 'rrmj_747',
+ 'tags': ['动画', '奇幻'],
+ 'type': 'tv',
+ 'url': 'https://movie.douban.com/subject/30454143/'}
+2020-05-07 11:42:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.douban.com/search?q=%E5%B0%8F%E9%95%87%E6%BB%8B%E5%91%B3+%E7%AC%AC%E4%B8%89%E5%AD%A3> (referer: https://api.rr.tv/v3plus/index/channel)
+2020-05-07 11:42:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://movie.douban.com/subject/30216753/> (referer: https://www.douban.com/search?q=%E5%B0%8F%E9%95%87%E6%BB%8B%E5%91%B3+%E7%AC%AC%E4%B8%89%E5%AD%A3)
+2020-05-07 11:42:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://movie.douban.com/subject/30216753/>
+{'cover': 'http://img.rr.tv/album/20190329/o_1553842368509.jpg',
+ 'data_type': 'movie',
+ 'id': 'rrmj_14435',
+ 'intro': 'Netflix宣布《小镇滋味》续订第3季，德鲁·巴里摩尔、蒂莫西·奥利芬特、丽芙·休森、斯凯勒·吉桑多回归主演。',
+ 'is_new': False,
+ 'name': '小镇滋味第三季',
+ 'platforms': '',
+ 'publishdate': '2019-03-29',
+ 'rate': 8.9,
+ 'sectionid': 'rrmj_747',
+ 'tags': ['喜剧', '恐怖'],
+ 'type': 'tv',
+ 'url': 'https://movie.douban.com/subject/30216753/'}
+2020-05-07 11:43:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 15 pages/min), scraped 30 items (at 30 items/min)
+2020-05-07 11:44:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:45:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:46:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:47:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:48:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:49:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:50:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:51:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:52:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:53:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:54:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:55:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:56:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:57:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:58:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 11:59:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:00:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:01:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:02:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:03:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:04:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:05:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:06:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:07:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:08:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:09:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:10:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:11:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:12:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:13:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:14:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:15:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:16:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:17:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:18:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:19:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:20:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:21:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:22:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:23:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:24:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:25:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:26:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:27:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:28:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:29:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:30:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:31:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:32:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:33:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:34:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:35:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:36:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:37:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:38:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:39:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:40:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:41:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:42:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:43:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:44:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:45:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:46:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:47:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:48:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:49:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:50:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:51:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:52:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:53:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:54:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:55:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:56:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:57:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:58:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 12:59:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:00:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:01:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:02:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:03:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:04:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:05:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:06:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:07:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:08:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:09:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:10:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:11:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:12:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:13:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:14:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:15:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:16:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:17:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:18:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:19:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:20:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:21:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:22:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:23:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:24:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:25:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:26:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:27:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:28:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:29:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:30:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:31:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:32:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:33:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:34:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:35:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:36:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:37:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:38:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:39:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:40:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:41:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:42:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:43:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:44:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:45:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:46:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:47:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:48:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:49:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:50:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:51:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:52:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:53:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:54:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:55:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:56:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:57:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:58:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 13:59:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:00:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:01:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:02:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:03:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:04:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:05:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:06:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:07:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:08:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:09:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:10:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:11:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:12:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:13:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:14:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:15:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:16:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:17:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:18:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:19:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:20:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:21:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:22:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:23:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:24:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:25:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:26:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:27:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:28:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:29:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:30:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:31:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:32:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:33:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:34:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:35:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:36:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:37:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:38:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:39:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:40:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:41:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:42:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:43:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:44:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:45:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:46:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:47:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:48:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:49:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:50:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:51:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:52:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:53:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:54:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:55:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:56:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:57:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:58:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 14:59:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:00:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:01:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:02:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:03:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:04:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:05:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:06:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:07:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:08:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:09:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:10:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:11:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:12:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:13:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:14:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:15:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:16:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:17:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:18:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:19:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:20:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:21:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:22:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:23:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:24:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:25:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:26:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:27:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:28:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:29:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:30:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:31:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:32:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:33:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:34:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:35:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:36:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:37:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:38:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:39:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:40:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:41:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:42:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:43:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:44:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:45:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:46:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:47:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:48:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:49:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:50:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:51:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:52:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:53:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:54:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:55:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:56:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:57:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:58:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 15:59:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:00:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:01:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:02:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:03:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:04:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:05:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:06:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:07:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:08:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:09:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:10:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:11:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:12:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:13:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)
+2020-05-07 16:14:10 [scrapy.extensions.logstats] INFO: Crawled 15 pages (at 0 pages/min), scraped 30 items (at 0 items/min)

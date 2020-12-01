@@ -1,0 +1,752 @@
+2020-05-07 11:42:05 [scrapy.utils.log] INFO: Scrapy 2.0.1 started (bot: spiderV1)
+2020-05-07 11:42:05 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 20.3.0, Python 3.7.1 (default, Mar 24 2020, 11:45:49) - [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-3.10.0-1062.18.1.el7.x86_64-x86_64-with-centos-7.7.1908-Core
+2020-05-07 11:42:05 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2020-05-07 11:42:05 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'spiderV1',
+ 'COOKIES_ENABLED': False,
+ 'DOWNLOAD_DELAY': 1,
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'HTTPCACHE_STORAGE': 'scrapy_splash.SplashAwareFSCacheStorage',
+ 'LOG_FILE': 'logs/default/vgtime/b3967a82901411ea8ccb00163e0d9d53.log',
+ 'NEWSPIDER_MODULE': 'spiderV1.spiders',
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['spiderV1.spiders']}
+2020-05-07 11:42:05 [scrapy.extensions.telnet] INFO: Telnet Password: ca94d09ceb9918a0
+2020-05-07 11:42:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-07 11:42:05 [vgtime] INFO: Reading start URLs from redis key 'vgtime:spider:strat_urls' (batch size: 16, encoding: utf-8
+2020-05-07 11:42:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'spiderV1.middlewares.SeleniumMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'spiderV1.middlewares.ScrapytestDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-07 11:42:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-07 11:42:05 [py.warnings] WARNING: /root/spider/scrapyspider/spiderV1/pipelines.py:80: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  temp = yaml.load(f.read())
+
+2020-05-07 11:42:05 [scrapy.middleware] INFO: Enabled item pipelines:
+['spiderV1.pipelines.SaveDataToFile']
+2020-05-07 11:42:05 [scrapy.core.engine] INFO: Spider opened
+2020-05-07 11:42:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-07 11:42:05 [vgtime] INFO: Spider opened: vgtime
+2020-05-07 11:42:05 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2020-05-07 11:42:05 [vgtime] DEBUG: Read 1 requests from 'vgtime:spider:strat_urls'
+2020-05-07 11:42:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category> (referer: None)
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/09/25/19092507595527_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_2215',
+ 'intro': '重现一个时代的美好回忆。',
+ 'is_new': 'False',
+ 'name': '最终幻想7 重制版',
+ 'platforms': ['PS4'],
+ 'publishdate': '2020-04-10',
+ 'rate': 9.6,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/12/03/191203214202810_u59.png',
+ 'data_type': 'game',
+ 'id': 'vgtime_11649',
+ 'intro': '时隔一年，再次回到浣熊市。',
+ 'is_new': 'False',
+ 'name': '生化危机3 重制版',
+ 'platforms': ['PS4', 'XB1', 'PC'],
+ 'publishdate': '2020-04-03',
+ 'rate': 8.0,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2017/09/29/170929183519258.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10545',
+ 'intro': 'PC 玩家也能玩到了。',
+ 'is_new': 'False',
+ 'name': '告别回忆 无垢少女',
+ 'platforms': ['NS', 'PS4', 'PC', 'PSV'],
+ 'publishdate': '2018-03-29',
+ 'rate': 9.1,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2020/04/14/200414182157386_u162815.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11779',
+ 'intro': '“幽浮：彩虹小队”？',
+ 'is_new': 'False',
+ 'name': '幽浮 奇美拉战队',
+ 'platforms': ['PC'],
+ 'publishdate': '2020-04-24',
+ 'rate': 6.2,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/06/13/190613190155493.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11486',
+ 'intro': '经典 JRPG 的重制作品。',
+ 'is_new': 'False',
+ 'name': '圣剑传说3 重制版',
+ 'platforms': ['NS', 'PS4', 'PC'],
+ 'publishdate': '2020-04-24',
+ 'rate': 8.4,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2020/04/06/200406114105689_u980.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10790',
+ 'intro': '用美式战棋的方式打开《战争机器》。',
+ 'is_new': 'False',
+ 'name': '战争机器 战术小队',
+ 'platforms': ['XB1', 'PC'],
+ 'publishdate': '2020-04-28',
+ 'rate': 8.4,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2020/04/02/200402120339824_u2505.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11778',
+ 'intro': 'Same Shit, Different Day.',
+ 'is_new': 'False',
+ 'name': '使命召唤 现代战争2 战役高清版',
+ 'platforms': ['PS4', 'XB1', 'PC'],
+ 'publishdate': '2020-04-01',
+ 'rate': 8.6,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/12/20/191220125415928_u654.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11701',
+ 'intro': '搬家？拆家！',
+ 'is_new': 'False',
+ 'name': '胡闹搬家',
+ 'platforms': ['NS', 'PS4', 'XB1', 'PC'],
+ 'publishdate': '2020-04-28',
+ 'rate': 8.2,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2018/06/13/180613165625229.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10782',
+ 'intro': '干掉所有会动的东西，这就是……',
+ 'is_new': 'False',
+ 'name': '毁灭战士 永恒',
+ 'platforms': ['Stadia', 'NS', 'PS4', 'XB1', 'PC'],
+ 'publishdate': '2020-03-20',
+ 'rate': 9.1,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2020/01/03/200103163022387_u292926.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10905',
+ 'intro': '……猛男的最爱？',
+ 'is_new': 'False',
+ 'name': '集合啦！动物森友会',
+ 'platforms': ['NS'],
+ 'publishdate': '2020-03-20',
+ 'rate': 9.7,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2020/03/02/200302160452990_u980.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11443',
+ 'intro': '酷炫的风格，刺激的战斗。',
+ 'is_new': 'False',
+ 'name': '尖峰战队',
+ 'platforms': ['XB1', 'PC'],
+ 'publishdate': '2020-03-24',
+ 'rate': 7.6,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/11/22/191122092042573_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11640',
+ 'intro': '或许是引领 VR 的一作。',
+ 'is_new': 'False',
+ 'name': '半衰期：爱莉克斯',
+ 'platforms': ['PC'],
+ 'publishdate': '2020-03-23',
+ 'rate': 9.4,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/04/24/190424233920250.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11393',
+ 'intro': '“拥有大量新内容的皇家版……”',
+ 'is_new': 'False',
+ 'name': '女神异闻录5R',
+ 'platforms': ['PS4'],
+ 'publishdate': '2019-10-31',
+ 'rate': 8.9,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/10/24/191024144744418_u2505.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11397',
+ 'intro': '“……就是我！”',
+ 'is_new': 'False',
+ 'name': '女神异闻录5 乱战 魅影攻手',
+ 'platforms': ['NS', 'PS4'],
+ 'publishdate': '2020-02-20',
+ 'rate': 8.7,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/web/151202151142278.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_3456',
+ 'intro': '提前拥有了 FreeStyle 的但丁。',
+ 'is_new': 'False',
+ 'name': '鬼泣3 特别版',
+ 'platforms': ['NS', 'PS4', 'XB1', 'PC', 'PS3', 'X360', 'PS2'],
+ 'publishdate': '2006-01-24',
+ 'rate': 8.9,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2020/01/30/200130115043953_u59.png',
+ 'data_type': 'game',
+ 'id': 'vgtime_11718',
+ 'intro': '啪嗒，啪嗒，啪嗒砰！',
+ 'is_new': 'False',
+ 'name': '啪嗒砰2 高清版',
+ 'platforms': ['PS4'],
+ 'publishdate': '2020-01-31',
+ 'rate': 7.8,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/08/29/190829131812173_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11573',
+ 'intro': '系列革新之作。',
+ 'is_new': 'False',
+ 'name': '如龙7 光与暗的去向',
+ 'platforms': ['PS4'],
+ 'publishdate': '2020-01-16',
+ 'rate': 9.3,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/09/12/190912163343845_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11527',
+ 'intro': '在《三国志》中「涂地」吧！',
+ 'is_new': 'False',
+ 'name': '三国志14',
+ 'platforms': ['PS4', 'PC'],
+ 'publishdate': '2020-01-16',
+ 'rate': 7.7,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/11/29/191129170627518_u292926.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11457',
+ 'intro': '进入《龙珠Z》的世界。',
+ 'is_new': 'False',
+ 'name': '龙珠Z 卡卡罗特',
+ 'platforms': ['PS4', 'XB1', 'PC'],
+ 'publishdate': '2020-01-16',
+ 'rate': 8.4,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2018/06/12/180612002816266.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10767',
+ 'intro': '天诛+老贼，再度点燃受苦之魂。',
+ 'is_new': 'False',
+ 'name': '只狼 影逝二度',
+ 'platforms': ['PS4', 'XB1', 'PC'],
+ 'publishdate': '2019-03-22',
+ 'rate': 9.6,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/05/10/190510171223122.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10778',
+ 'intro': '「火焰纹章」系列有史以来最唯美、浪漫的副标题。',
+ 'is_new': 'False',
+ 'name': '火焰纹章 风花雪月',
+ 'platforms': ['NS'],
+ 'publishdate': '2019-07-26',
+ 'rate': 9.2,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/12/18/191218191740205_u54.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_4315',
+ 'intro': '岛神会摸鱼，但不会让我们失望。',
+ 'is_new': 'False',
+ 'name': '死亡搁浅',
+ 'platforms': ['PS4', 'PC'],
+ 'publishdate': '2019-11-08',
+ 'rate': 9.0,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/08/22/190822124042761_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10700',
+ 'intro': '老游戏，新姿态。',
+ 'is_new': 'False',
+ 'name': '新樱花大战',
+ 'platforms': ['PS4'],
+ 'publishdate': '2019-12-12',
+ 'rate': 8.3,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/09/30/190930184059205_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11609',
+ 'intro': '快来测测自己的脑年龄。',
+ 'is_new': 'False',
+ 'name': '成年人的脑力锻炼 Switch',
+ 'platforms': ['NS'],
+ 'publishdate': '2019-12-27',
+ 'rate': 8.6,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/06/10/190610030740425.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11440',
+ 'intro': '天启四骑士最后一位即将登场。',
+ 'is_new': 'False',
+ 'name': '暗黑血统 创世纪',
+ 'platforms': ['Stadia', 'NS', 'PS4', 'XB1', 'PC'],
+ 'publishdate': '2019-12-05',
+ 'rate': 8.0,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2018/09/18/18091818104791.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10914',
+ 'intro': '新瓶装旧酒，要来试试么？',
+ 'is_new': 'False',
+ 'name': '永恒终焉 4K/HD',
+ 'platforms': ['PS4', 'PC'],
+ 'publishdate': '2018-10-18',
+ 'rate': 8.4,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/12/18/191218191740205_u54.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_4315',
+ 'intro': '岛神会摸鱼，但不会让我们失望。',
+ 'is_new': 'False',
+ 'name': '死亡搁浅',
+ 'platforms': ['PS4', 'PC'],
+ 'publishdate': '2019-11-08',
+ 'rate': 9.0,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2018/05/04/180504101152719.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_4446',
+ 'intro': '亡命之徒在美国西部不一定会获得救赎，但玩家在这里会获得自由。',
+ 'is_new': 'False',
+ 'name': '荒野大镖客 救赎2',
+ 'platforms': ['Stadia', 'PS4', 'XB1', 'PC'],
+ 'publishdate': '2018-10-26',
+ 'rate': 9.5,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/10/21/191021173953291_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11367',
+ 'intro': '四年一次的奥运会，四年一次的马力欧与索尼克对碰！',
+ 'is_new': 'False',
+ 'name': '马力欧&索尼克 2020东京奥运',
+ 'platforms': ['NS'],
+ 'publishdate': '2019-11-01',
+ 'rate': 8.5,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/08/22/190822165954269_u59.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11523',
+ 'intro': '一起滚起来吧。',
+ 'is_new': 'False',
+ 'name': '现尝好滋味！超级猴子球',
+ 'platforms': ['NS', 'PS4', 'XB1', 'PC'],
+ 'publishdate': '2019-10-31',
+ 'rate': 8.1,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/10/26/191026111236503_u54.png',
+ 'data_type': 'game',
+ 'id': 'vgtime_10988',
+ 'intro': '对话与选择，这次黑曜石会为我们塑造怎样的世界？',
+ 'is_new': 'False',
+ 'name': '天外世界',
+ 'platforms': ['NS', 'PS4', 'XB1', 'PC'],
+ 'publishdate': '2019-10-25',
+ 'rate': 8.7,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2018/09/14/180914162627885.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_10909',
+ 'intro': '路易吉吓得绿帽子都掉地上了，而你在哈哈大笑。',
+ 'is_new': 'False',
+ 'name': '路易吉洋楼3',
+ 'platforms': ['NS'],
+ 'publishdate': '2019-10-31',
+ 'rate': 9.0,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:42:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category>
+{'cover': 'https://img01.vgtime.com/game/cover/2019/05/31/190531101927342.jpg',
+ 'data_type': 'game',
+ 'id': 'vgtime_11422',
+ 'intro': '生死一线的灰色地带，就是我们战斗的舞台。',
+ 'is_new': 'False',
+ 'name': '使命召唤 现代战争',
+ 'platforms': ['PS4', 'XB1', 'PC'],
+ 'publishdate': '2019-10-25',
+ 'rate': 8.5,
+ 'tags': '',
+ 'type': 'game',
+ 'url': ''}
+2020-05-07 11:43:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 33 items (at 33 items/min)
+2020-05-07 11:44:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:45:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:46:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:47:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:48:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:49:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:50:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:51:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:52:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:53:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:54:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:55:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:56:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:57:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:58:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 11:59:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:00:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:01:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:02:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:03:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:04:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:05:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:06:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:07:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:08:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:09:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:10:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:11:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:12:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:13:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:14:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:15:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:16:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:17:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:18:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:19:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:20:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:21:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:22:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:23:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:24:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:25:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:26:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:27:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:28:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:29:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:30:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:31:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:32:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:33:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:34:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:35:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:36:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:37:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:38:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:39:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:40:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:41:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:42:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:43:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:44:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:45:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:46:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:47:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:48:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:49:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:50:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:51:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:52:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:53:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:54:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:55:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:56:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:57:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:58:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 12:59:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:00:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:01:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:02:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:03:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:04:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:05:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:06:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:07:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:08:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:09:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:10:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:11:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:12:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:13:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:14:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:15:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:16:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:17:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:18:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:19:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:20:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:21:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:22:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:23:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:24:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:25:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:26:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:27:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:28:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:29:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:30:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:31:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:32:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:33:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:34:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:35:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:36:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:37:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:38:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:39:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:40:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:41:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:42:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:43:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:44:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:45:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:46:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:47:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:48:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:49:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:50:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:51:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:52:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:53:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:54:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:55:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:56:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:57:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:58:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 13:59:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:00:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:01:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:02:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:03:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:04:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:05:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:06:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:07:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:08:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:09:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:10:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:11:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:12:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:13:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:14:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:15:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:16:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:17:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:18:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:19:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:20:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:21:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:22:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:23:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:24:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:25:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:26:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:27:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:28:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:29:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:30:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:31:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:32:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:33:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:34:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:35:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:36:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:37:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:38:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:39:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:40:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:41:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:42:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:43:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:44:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:45:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:46:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:47:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:48:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:49:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:50:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:51:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:52:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:53:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:54:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:55:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:56:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:57:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:58:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 14:59:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:00:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:01:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:02:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:03:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:04:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:05:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:06:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:07:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:08:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:09:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:10:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:11:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:12:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:13:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:14:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:15:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:16:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:17:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:18:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:19:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:20:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:21:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:22:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:23:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:24:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:25:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:26:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:27:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:28:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:29:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:30:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:31:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:32:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:33:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:34:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:35:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:36:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:37:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:38:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:39:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:40:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:41:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:42:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:43:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:44:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:45:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:46:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:47:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:48:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:49:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:50:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:51:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:52:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:53:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:54:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:55:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:56:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:57:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:58:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 15:59:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:00:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:01:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:02:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:03:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:04:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:05:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:06:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:07:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:08:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:09:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:10:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:11:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:12:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:13:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:14:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)
+2020-05-07 16:15:05 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 0 pages/min), scraped 33 items (at 0 items/min)

@@ -1,0 +1,58 @@
+# by www.bejson.com 
+spider_config:
+- site_type: news
+  sites:
+
+  - site_name: '豆瓣电影'
+    site: 'doubanmovie'
+    need_webdriver: False
+    need_login: False
+    encoding: 'utf-8' #默认为utf-8
+    spider_request_type: 'get' #默认为get
+    all:
+      spider_level: 3
+      web:
+        index:
+          - 'https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start={}'
+          - 'https://movie.douban.com/j/search_subjects?type=tv&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start={}'
+
+  - site_name: 'vg时光'
+    site: 'vgtime'
+    need_webdriver: False
+    need_login: False
+    encoding: 'utf-8' #默认为utf-8
+    spider_request_type: 'get' #默认为get
+    all:
+      spider_level: 3
+      web:
+        index:
+          #- 'https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start={}'
+          - 'http://api.youxishiguang.com:8080/vgtime-app/api/v3/game/recommend_list_by_category'
+
+  - site_name: '人人美剧'
+    site: 'rrmj'
+    need_webdriver: False
+    need_login: False
+    encoding: 'utf-8' #默认为utf-8
+    spider_request_type: 'get' #默认为get
+    all:
+      spider_level: 3
+      web:
+        index:
+          #- 'https://movie.douban.com/j/search_subjects?type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start={}'
+          - 'https://api.rr.tv/v3plus/index/channel'
+
+  - site_name: '豆瓣电影'
+    site: 'doubanSearch'
+    need_webdriver: False
+    need_login: False
+    encoding: 'utf-8' #默认为utf-8
+    spider_request_type: 'get' #默认为get
+    all:
+      spider_level: 3
+      web:
+        index:
+          - 'https://movie.douban.com'
+
+
+ 

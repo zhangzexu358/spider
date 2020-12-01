@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="939c7e42-e7bc-4327-a767-e6465e3087ba" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/main/content2file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/spidertest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/othermodual/delete_spider_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/othermodual/drivertest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/othermodual/estest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send_data_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Env/ParseYaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Env/ParseYaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParePylib/htmlconf_all.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ParePylib/htmlconf_all.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParePylib/parsinghtml.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParePylib/parsinghtml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParePylib/testoneweb.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParePylib/testoneweb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParePylib/testoneweb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParePylib/testoneweb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParePylib/testonexpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParePylib/testonexpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address.yml" beforeDir="false" afterPath="$PROJECT_DIR$/address.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbhandle/KafkaConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbhandle/KafkaConnector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/othermodual/add_spider_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/othermodual/add_spider_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/othermodual/itemutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/othermodual/itemutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/othermodual/send_url_to_redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/othermodual/send_url_to_redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/othermodual/siteutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/othermodual/siteutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipelines1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/site.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/21cnxinwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/21cnxinwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/360News.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/360News.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/360gerentushuguan.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/360gerentushuguan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/BBC.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/BBC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/BaiduNewKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/BaiduNewKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/BeiJingTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/BeiJingTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/ChineseEducation.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/ChineseEducation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/ChineseTeenager.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/ChineseTeenager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/GoogleKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/GoogleKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/HaiJiang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/HaiJiang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/NewYorkTimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/NewYorkTimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/ReferenceInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/ReferenceInformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/SouthChinaNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/SouthChinaNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/TencentDaCheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/TencentDaCheng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/TengXunNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/TengXunNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/afp.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/afp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/aisixiang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/aisixiang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/allAfrica.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/allAfrica.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/altNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/altNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/baiduforum.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/baiduforum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/baiduforumByKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/baiduforumByKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/baiduforumKeyPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/baiduforumKeyPerson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/baiduforumkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/baiduforumkey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/baidunewindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/baidunewindex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/baidunewsapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/baidunewsapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/baiduxinwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/baiduxinwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/basemodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/basemodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/beitunshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/beitunshi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/cablenews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/cablenews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/cdXiangShang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/cdXiangShang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chengduLife.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chengduLife.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chengdushangbao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chengdushangbao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chinaEco.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chinaEco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chinanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chinanet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chinaradio.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chinaradio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chinatv.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chinatv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chinawriter.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chinawriter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chongqingshequ.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chongqingshequ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/chuxiuwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/chuxiuwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/cnhubei.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/cnhubei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/cnwest.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/cnwest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/conversation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/cyol.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/cyol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/daheluntan.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/daheluntan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/disicheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/disicheng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/dongfangdaily.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/dongfangdaily.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/douban.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/douban.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/duanchuanmei.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/duanchuanmei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/eastday.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/eastday.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/facebook_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/facebook_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/fazhiwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/fazhiwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/fenghuangxinwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/fenghuangxinwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/guanchazhe.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/guanchazhe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/guangmingwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/guangmingwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/guojizaixian.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/guojizaixian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/guokewang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/guokewang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/haiwaiwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/haiwaiwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/haoqixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/haoqixin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/hbNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/hbNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/hebcdi.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/hebcdi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/hexunNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/hexunNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/honggehui.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/honggehui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/hongqiwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/hongqiwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/huanqiuwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/huanqiuwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/huaxidushibao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/huaxidushibao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/ixpub.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/ixpub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jiemian.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jiemian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jifengluntan.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jifengluntan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jinghuashequ.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jinghuashequ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jingjinNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jingjinNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jinritoutiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jinritoutiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jinritoutiaoKeyPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jinritoutiaoKeyPerson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jinritoutiaoKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jinritoutiaoKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/journalducameroun.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/journalducameroun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/jschina.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/jschina.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/kaidi.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/kaidi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/keyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/keyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/langfangLife.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/langfangLife.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/langfangNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/langfangNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/langfangchuanmei.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/langfangchuanmei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/latimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/latimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/lvyouluntan.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/lvyouluntan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/makaangola.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/makaangola.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/malashequ.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/malashequ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/miaopu.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/miaopu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/nanfangwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/nanfangwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/nanfangzhoumo.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/nanfangzhoumo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/nation.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/nation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/njdiyicheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/njdiyicheng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/nxnews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/nxnews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/nxpeople.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/nxpeople.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/pengpaixinwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/pengpaixinwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/pentiwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/pentiwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/peoplebbs.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/peoplebbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/qlwb.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/qlwb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/renminwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/renminwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/reuters.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/reuters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scChinanews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scChinanews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scInternational.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scInternational.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scdaily.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scdaily.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scdigital.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scdigital.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scedu.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scedu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scjb.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scjb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scjingjiwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scjingjiwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scnews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scnews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scpeople.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scpeople.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scpta.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scpta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/scxinhua.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/scxinhua.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/showchina.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/showchina.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sichuanOnline.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sichuanOnline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sichuanTV.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sichuanTV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinahuatitopic.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinahuatitopic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinakeywordtopic.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinakeywordtopic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinasc.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinasc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinaweibo.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinaweibo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinaweiboArticleAndComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinaweiboArticleAndComment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinaweiboByKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinaweiboByKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinaweiboKeyPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinaweiboKeyPerson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinaweibocount.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinaweibocount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sinaweibopost.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sinaweibopost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/siyueqingnian.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/siyueqingnian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/souhu.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/souhu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/souhuboke.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/souhuboke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/sputnik.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sputnik.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/tass.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/tass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/telegramchannel.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/telegramchannel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/theguardian.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/theguardian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/tianfushequ.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/tianfushequ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/tiantiankuaibao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/tiantiankuaibao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/tianya.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/tianya.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/tianyaByKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/tianyaByKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/tianyaKeyPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/tianyaKeyPerson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/tiexueshequ.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/tiexueshequ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/todayng.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/todayng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/twitterByGeo.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/twitterByGeo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/twitterByKeyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/twitterByKeyword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/twitterKeyPerson.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/twitterKeyPerson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/twitterNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/twitterNews.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/twitterPostAndComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/twitterPostAndComment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/uctoutiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/uctoutiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/uctoutiaoKeyperson.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/uctoutiaoKeyperson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/updatecomment.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/updatecomment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/vipuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/vipuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/wangyixinwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/wangyixinwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/weilaiwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/weilaiwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/wuyouzhixiang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/wuyouzhixiang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/xicihutong.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/xicihutong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/xinfajia.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/xinfajia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/xinjingbaoxinwenwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/xinjingbaoxinwenwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/xinlangxinwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/xinlangxinwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/yidianzixun.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/yidianzixun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/yidianzixunKeyperson.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/yidianzixunKeyperson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/zhongguoribaowang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/zhongguoribaowang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/zhongguoxinwenwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/zhongguoxinwenwang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/zhonghuawang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/zhonghuawang.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/scrapyTest$driverutil.coverage" NAME="driverutil Coverage Results" MODIFIED="1542336939674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/spiderV1$testoneweb.coverage" NAME="testoneweb Coverage Results" MODIFIED="1584784788157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ParePylib" />
+    <SUITE FILE_PATH="coverage/spiderV1$xizang_zhiye.coverage" NAME="xizang_zhiye Coverage Results" MODIFIED="1556261797736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$FTchinese.coverage" NAME="FTchinese Coverage Results" MODIFIED="1584696502077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$main.coverage" NAME="main Coverage Results" MODIFIED="1606821885642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/spiderV1$spider_count__1_.coverage" NAME="spider_count (1) Coverage Results" MODIFIED="1564455035388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderV1$cookieupdate__1_.coverage" NAME="cookieupdate (1) Coverage Results" MODIFIED="1575012903465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/scrapyTest$KafkaConnector1.coverage" NAME="KafkaConnector1 Coverage Results" MODIFIED="1544260394639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderV1$send_data_file.coverage" NAME="send_data_file Coverage Results" MODIFIED="1572953232237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderV1$add_spider_file1.coverage" NAME="add_spider_file1 Coverage Results" MODIFIED="1547461587772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$token_gen.coverage" NAME="token_gen Coverage Results" MODIFIED="1583999160881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/scrapyTest$lunch_spider_in_scrapyd.coverage" NAME="lunch_spider_in_scrapyd Coverage Results" MODIFIED="1544515951744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$codecs.coverage" NAME="codecs Coverage Results" MODIFIED="1574315709580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib" />
+    <SUITE FILE_PATH="coverage/spiderV1$telegramchannel.coverage" NAME="telegramchannel Coverage Results" MODIFIED="1572916437757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$uctoutiao.coverage" NAME="uctoutiao Coverage Results" MODIFIED="1566548279058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$tokentest.coverage" NAME="tokentest Coverage Results" MODIFIED="1574129075080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$send_url_to_redis2.coverage" NAME="send_url_to_redis2 Coverage Results" MODIFIED="1574995161175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$tiantiankuaibao.coverage" NAME="tiantiankuaibao Coverage Results" MODIFIED="1574241928506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$lunch_spider_in_scrapyd__1_.coverage" NAME="lunch_spider_in_scrapyd (1) Coverage Results" MODIFIED="1544255894877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$twitterByKeyword.coverage" NAME="twitterByKeyword Coverage Results" MODIFIED="1555753408513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$add_spider_file.coverage" NAME="add_spider_file Coverage Results" MODIFIED="1544942829298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$scedu.coverage" NAME="scedu Coverage Results" MODIFIED="1568798350589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$cookieupdate.coverage" NAME="cookieupdate Coverage Results" MODIFIED="1583138764605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$itemutil.coverage" NAME="itemutil Coverage Results" MODIFIED="1563435365042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/scrapyTest$middlewares.coverage" NAME="middlewares Coverage Results" MODIFIED="1543225384190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderV1$spidertest.coverage" NAME="spidertest Coverage Results" MODIFIED="1578474982472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/spiderV1$testonexpath.coverage" NAME="testonexpath Coverage Results" MODIFIED="1574152436541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ParePylib" />
+    <SUITE FILE_PATH="coverage/spiderV1$twitterKeyPerson.coverage" NAME="twitterKeyPerson Coverage Results" MODIFIED="1558666214464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$delete_spider_file.coverage" NAME="delete_spider_file Coverage Results" MODIFIED="1568099102692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$yidianzixun.coverage" NAME="yidianzixun Coverage Results" MODIFIED="1566287814294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$siteutil.coverage" NAME="siteutil Coverage Results" MODIFIED="1552275920846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/scrapyTest$main.coverage" NAME="main Coverage Results" MODIFIED="1545115552317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/spiderV1$jinritoutiao.coverage" NAME="jinritoutiao Coverage Results" MODIFIED="1566203385365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$itemutil.coverage" NAME="itemutil Coverage Results" MODIFIED="1543389743483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/spiderV1$xingdaoribao.coverage" NAME="xingdaoribao Coverage Results" MODIFIED="1568000144030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$WebDriver.coverage" NAME="WebDriver Coverage Results" MODIFIED="1542192653736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/scrapyTest$KafkaConnector.coverage" NAME="KafkaConnector Coverage Results" MODIFIED="1544754627505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dbhandle" />
+    <SUITE FILE_PATH="coverage/spiderV1$drivertest.coverage" NAME="drivertest Coverage Results" MODIFIED="1585032396276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$vipuser.coverage" NAME="vipuser Coverage Results" MODIFIED="1557738826399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$send_url_to_redis__1_.coverage" NAME="send_url_to_redis (1) Coverage Results" MODIFIED="1544255867006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$cablenews.coverage" NAME="cablenews Coverage Results" MODIFIED="1567670501782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$regexutil.coverage" NAME="regexutil Coverage Results" MODIFIED="1544327938871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$send_url_to_redis.coverage" NAME="send_url_to_redis Coverage Results" MODIFIED="1583735130175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$oushinet.coverage" NAME="oushinet Coverage Results" MODIFIED="1582536739692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$test.coverage" NAME="test Coverage Results" MODIFIED="1544008019451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$siteutil.coverage" NAME="siteutil Coverage Results" MODIFIED="1544250112657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$parsinghtml.coverage" NAME="parsinghtml Coverage Results" MODIFIED="1553138851274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ParePylib" />
+    <SUITE FILE_PATH="coverage/spiderV1$lunch_spider_in_scrapyd.coverage" NAME="lunch_spider_in_scrapyd Coverage Results" MODIFIED="1551864081776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$send_url_to_redis11.coverage" NAME="send_url_to_redis11 Coverage Results" MODIFIED="1581390128656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$add_spider_file.coverage" NAME="add_spider_file Coverage Results" MODIFIED="1584688312162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$spider_test.coverage" NAME="spider_test Coverage Results" MODIFIED="1574734388564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/spiderV1$content2file.coverage" NAME="content2file Coverage Results" MODIFIED="1564624687376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/spiderV1$baiduforum.coverage" NAME="baiduforum Coverage Results" MODIFIED="1559287370828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$regexutil.coverage" NAME="regexutil Coverage Results" MODIFIED="1547124435895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$sinaweiboByKeyword.coverage" NAME="sinaweiboByKeyword Coverage Results" MODIFIED="1556098756916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$basemodel.coverage" NAME="basemodel Coverage Results" MODIFIED="1544704336030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$tianya.coverage" NAME="tianya Coverage Results" MODIFIED="1543304216384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$testoneweb2.coverage" NAME="testoneweb2 Coverage Results" MODIFIED="1553771266786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ParePylib" />
+    <SUITE FILE_PATH="coverage/spiderV1$estest.coverage" NAME="estest Coverage Results" MODIFIED="1583222175230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/scrapyTest$testoneweb.coverage" NAME="testoneweb Coverage Results" MODIFIED="1545200617163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ParePylib" />
+    <SUITE FILE_PATH="coverage/spiderV1$cdXiangShang.coverage" NAME="cdXiangShang Coverage Results" MODIFIED="1554104115503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$baiduforum.coverage" NAME="baiduforum Coverage Results" MODIFIED="1542614168301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$baidunewsapp.coverage" NAME="baidunewsapp Coverage Results" MODIFIED="1566807457586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$spider_count.coverage" NAME="spider_count Coverage Results" MODIFIED="1563348856617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/scrapyTest$parsinghtml.coverage" NAME="parsinghtml Coverage Results" MODIFIED="1544252025272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ParePylib" />
+    <SUITE FILE_PATH="coverage/spiderV1$bernama.coverage" NAME="bernama Coverage Results" MODIFIED="1582880061220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$teste.coverage" NAME="teste Coverage Results" MODIFIED="1584774203497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
+    <SUITE FILE_PATH="coverage/spiderV1$twitterNews.coverage" NAME="twitterNews Coverage Results" MODIFIED="1555594613655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/spiderV1$sinahuatitopic.coverage" NAME="sinahuatitopic Coverage Results" MODIFIED="1567741263083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
+    <SUITE FILE_PATH="coverage/scrapyTest$SiteUtil.coverage" NAME="SiteUtil Coverage Results" MODIFIED="1542247239861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/scrapyTest$KafkaConnector_1_.coverage" NAME="KafkaConnector(1) Coverage Results" MODIFIED="1544260715811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spiderV1$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1546953286439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scrapyTest$send_url_to_redis.coverage" NAME="send_url_to_redis Coverage Results" MODIFIED="1544515945178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/spiderV1$driverutil.coverage" NAME="driverutil Coverage Results" MODIFIED="1553502859869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/othermodual" />
+    <SUITE FILE_PATH="coverage/scrapyTest$testonexpath.coverage" NAME="testonexpath Coverage Results" MODIFIED="1543483440501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ParePylib" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="e#193#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defer.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python3.7/Lib/site-packages/scrapy/utils/defer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defer.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/python3.7/Lib/site-packages/twisted/internet/defer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="653" selection-start-line="653" selection-end-line="653" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/address.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vgtime.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spiders/vgtime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemutil.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/othermodual/itemutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2001" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send_url_to_redis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/othermodual/send_url_to_redis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="131" column="47" lean-forward="true" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mainContent</find>
+      <find>style01 mB10</find>
+      <find>view-publish-date</find>
+      <find>view-comp-publish-date</find>
+      <find>h1</find>
+      <find>pu</find>
+      <find>requests.post</find>
+      <find>time.str</find>
+      <find>algo</find>
+      <find>美联社</find>
+      <find>//article[@data-type=&quot;article&quot;]</find>
+      <find>body-columns</find>
+      <find>guardian</find>
+      <find>more:</find>
+      <find>post</find>
+      <find>washington</find>
+      <find>德国</find>
+      <find>bl</find>
+      <find>format</find>
+      <find>acb</find>
+      <find>村长</find>
+      <find>urlli</find>
+      <find>washing</find>
+      <find>FormR</find>
+      <find>FormRequest</find>
+      <find>doubanmovue</find>
+      <find>id</find>
+      <find>6807298880074416647</find>
+      <find>spider_log_dir</find>
+      <find>ScrapytestDownloaderMiddleware</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>key_search_param_name</replace>
+      <replace>pwd</replace>
+      <replace>spider_request_type</replace>
+      <replace>rules_restrict_xpaths</replace>
+      <replace>rules</replace>
+      <replace>rules_is_body</replace>
+      <replace>#logging.basicConfig</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spiders/gulfnews.py" />
+        <option value="$PROJECT_DIR$/spiders/usnews.py" />
+        <option value="$PROJECT_DIR$/spiders/thaizhonghua.py" />
+        <option value="$PROJECT_DIR$/spiders/oushinet.py" />
+        <option value="$PROJECT_DIR$/spiders/dailyexpress.py" />
+        <option value="$PROJECT_DIR$/spiders/xingdaoribao.py" />
+        <option value="$PROJECT_DIR$/spiders/SouthChinaNews.py" />
+        <option value="$PROJECT_DIR$/spiders/bernama.py" />
+        <option value="$PROJECT_DIR$/othermodual/cookieupdate.py" />
+        <option value="$PROJECT_DIR$/othermodual/estest.py" />
+        <option value="$PROJECT_DIR$/ParePylib/parsinghtml.py" />
+        <option value="$PROJECT_DIR$/spiders/jinritoutiao.py" />
+        <option value="$PROJECT_DIR$/spiders/baidunewsapp.py" />
+        <option value="$PROJECT_DIR$/othermodual/itemutil.py" />
+        <option value="$PROJECT_DIR$/othermodual/add_spider_file.py" />
+        <option value="$PROJECT_DIR$/othermodual/siteutil.py" />
+        <option value="$PROJECT_DIR$/spiders/nytimescn.py" />
+        <option value="$PROJECT_DIR$/spiders/FTchinese.py" />
+        <option value="$PROJECT_DIR$/spiders/wallstreetcn.py" />
+        <option value="$PROJECT_DIR$/spiders/reuterscn.py" />
+        <option value="$PROJECT_DIR$/spiders/voachinese.py" />
+        <option value="$PROJECT_DIR$/spiders/cnBBC.py" />
+        <option value="$PROJECT_DIR$/spiders/CNNsearch.py" />
+        <option value="$PROJECT_DIR$/spiders/germanyVoice.py" />
+        <option value="$PROJECT_DIR$/spiders/meilanshe.py" />
+        <option value="$PROJECT_DIR$/spiders/nikkei.py" />
+        <option value="$PROJECT_DIR$/spiders/rficn.py" />
+        <option value="$PROJECT_DIR$/spiders/abccn.py" />
+        <option value="$PROJECT_DIR$/spiders/bbwc.py" />
+        <option value="$PROJECT_DIR$/spiders/zaobao.py" />
+        <option value="$PROJECT_DIR$/spiders/ltnnews.py" />
+        <option value="$PROJECT_DIR$/spiders/setn.py" />
+        <option value="$PROJECT_DIR$/spiders/cnaNews.py" />
+        <option value="$PROJECT_DIR$/spiders/theguardianInternational.py" />
+        <option value="$PROJECT_DIR$/spiders/bloomberg.py" />
+        <option value="$PROJECT_DIR$/ParePylib/testoneweb.py" />
+        <option value="$PROJECT_DIR$/ParePylib/htmlconf_all.yaml" />
+        <option value="$PROJECT_DIR$/spiders/washingtonpost.py" />
+        <option value="$PROJECT_DIR$/site.yaml" />
+        <option value="$PROJECT_DIR$/spiders/doubanmovie.py" />
+        <option value="$PROJECT_DIR$/main/teste.py" />
+        <option value="$PROJECT_DIR$/othermodual/drivertest.py" />
+        <option value="$PROJECT_DIR$/pipelines.py" />
+        <option value="$PROJECT_DIR$/spiders/vgtime.py" />
+        <option value="$PROJECT_DIR$/address.yml" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/middlewares.py" />
+        <option value="$PROJECT_DIR$/main/main.py" />
+        <option value="$PROJECT_DIR$/dbhandle/KafkaConnector.py" />
+        <option value="$PROJECT_DIR$/othermodual/send_url_to_redis.py" />
+        <option value="$PROJECT_DIR$/items.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="900" />
+    <option name="y" value="93" />
+    <option name="width" value="1184" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spiderV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiderV1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spiderV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiderV1" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spiderV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiderV1" type="462c0819:PsiDirectoryNode" />
+              <item name="othermodual" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spiderV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spiderV1" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/new_vip_1101/trunk/spider/scrapyspider_db/spiderV1/spiders/tiantiankuaibao.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\new_scrapy_db\scrapyspider\spiderV1\ParePylib" />
+      <recent name="E:\scrapy\scrapyspider\scrapyTest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration name="FTchinese" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderV1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/FTchinese.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="add_spider_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderV1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/othermodual" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/othermodual/add_spider_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="drivertest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderV1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/othermodual" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/othermodual/drivertest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderV1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\python3.7\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spiderV1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="testoneweb" type="PythonConfigurationType" factoryName="Python">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python35-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ParePylib" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ParePylib/testoneweb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="scrapyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.testoneweb" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.drivertest" />
+      <item itemvalue="Python.teste" />
+      <item itemvalue="Python.add_spider_file" />
+      <item itemvalue="Python.FTchinese" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.drivertest" />
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.FTchinese" />
+        <item itemvalue="Python.add_spider_file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\zeux\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="939c7e42-e7bc-4327-a767-e6465e3087ba" name="默认的" comment="" />
+      <created>1542179591046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542179591046</updated>
+    </task>
+    <task id="LOCAL-00001" summary="提交修改">
+      <created>1555403726387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555403726387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交修改">
+      <created>1565682616661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565682616661</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交修改">
+      <created>1569836246559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569836246559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增或修改爬虫">
+      <created>1576633500594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576633500594</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增或修改爬虫">
+      <created>1577409885504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577409885504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.48933902" weight="0.32108107" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.23697917" side_tool="true" weight="0.37025318" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.48507464" weight="0.3372973" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.48294243" weight="0.3372973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22553782" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.05010661" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32971016" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.39975846" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="找到" order="0" sideWeight="0.4978678" weight="0.25405404" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="运行" order="10" sideWeight="0.49345207" weight="0.44972974" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" sideWeight="0.49322918" weight="0.32864866" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="调试" order="15" sideWeight="0.7630208" visible="true" weight="0.3654054" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交修改" />
+    <MESSAGE value="新增或修改爬虫" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增或修改爬虫" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/driverutil.py</url>
+          <line>15</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/regexutil.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/regexutil.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/add_spider_file.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/parsinghtml.py</url>
+          <line>967</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/lunch_spider_in_scrapyd.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/lunch_spider_in_scrapyd.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/siteutil.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dbhandle/Connector.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dbhandle/Connector.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/lunch_spider_in_scrapyd.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>626</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/siteutil.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>706</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/send_url_to_redis.py</url>
+          <line>332</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/lunch_spider_in_scrapyd.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/driverutil.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/driverutil.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>899</line>
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>403</line>
+          <option name="timeStamp" value="550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>400</line>
+          <option name="timeStamp" value="551" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinaweibo.py</url>
+          <line>278</line>
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinaweibo.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="643" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinaweibo.py</url>
+          <line>274</line>
+          <option name="timeStamp" value="644" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/twitterKeyPerson.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="692" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>384</line>
+          <option name="timeStamp" value="713" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinaweiboArticleAndComment.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="715" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>423</line>
+          <option name="timeStamp" value="739" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>479</line>
+          <option name="timeStamp" value="744" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>373</line>
+          <option name="timeStamp" value="765" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/wechat.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/facebook_post.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="827" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/twitterByGeo.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="828" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/twitterKeyPerson.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="829" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/twitterKeyPerson.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="832" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/twitterKeyPerson.py</url>
+          <line>491</line>
+          <option name="timeStamp" value="833" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/latimes.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="841" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sputnik.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="856" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/CNN.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="857" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vipuser.py</url>
+          <line>295</line>
+          <option name="timeStamp" value="884" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/reuters.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="891" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/reuters.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="892" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/reuters.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="893" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/itemutil.py</url>
+          <line>285</line>
+          <option name="timeStamp" value="938" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/send_url_to_redis.py</url>
+          <line>311</line>
+          <option name="timeStamp" value="943" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>590</line>
+          <option name="timeStamp" value="975" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiao.py</url>
+          <line>329</line>
+          <option name="timeStamp" value="1003" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiao.py</url>
+          <line>345</line>
+          <option name="timeStamp" value="1004" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="1005" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="1006" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiao.py</url>
+          <line>362</line>
+          <option name="timeStamp" value="1019" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/yidianzixun.py</url>
+          <line>457</line>
+          <option name="timeStamp" value="1039" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/yidianzixun.py</url>
+          <line>468</line>
+          <option name="timeStamp" value="1040" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/yidianzixun.py</url>
+          <line>444</line>
+          <option name="timeStamp" value="1041" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/yidianzixun.py</url>
+          <line>463</line>
+          <option name="timeStamp" value="1044" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/wenweipo.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="1162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/cablenews.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="1164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/cablenews.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="1165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>756</line>
+          <option name="timeStamp" value="1173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/duanchuanmei.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="1186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/send_url_to_redis.py</url>
+          <line>438</line>
+          <option name="timeStamp" value="1207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baiduforum.py</url>
+          <line>315</line>
+          <option name="timeStamp" value="1260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baiduforum.py</url>
+          <line>246</line>
+          <option name="timeStamp" value="1262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/nxpeople.py</url>
+          <line>269</line>
+          <option name="timeStamp" value="1295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyword.py</url>
+          <line>397</line>
+          <option name="timeStamp" value="1298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyword.py</url>
+          <line>396</line>
+          <option name="timeStamp" value="1299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyword.py</url>
+          <line>319</line>
+          <option name="timeStamp" value="1300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyword.py</url>
+          <line>318</line>
+          <option name="timeStamp" value="1301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyword.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="1302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/scedu.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="1303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>760</line>
+          <option name="timeStamp" value="1307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyperson.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="1311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyperson.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="1312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyperson.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="1313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyperson.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="1314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zhihuKeyperson.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="1315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinakeywordtopic.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="1319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiaoKeyPerson.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="1325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiaoKeyPerson.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="1326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/send_url_to_redis.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="1328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/send_url_to_redis.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="1329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiaoKeyPerson.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="1385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiaoKeyword.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="1386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/send_data_file.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/send_data_file.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="1487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/send_data_file.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="1488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/send_data_file.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="1489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/send_data_file.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="1490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/telegramchannel.py</url>
+          <line>328</line>
+          <option name="timeStamp" value="1503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/updatecomment.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="1611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pipelines.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="1613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/yidianzixun.py</url>
+          <line>234</line>
+          <option name="timeStamp" value="1614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/updatecomment.py</url>
+          <line>853</line>
+          <option name="timeStamp" value="1621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/updatecomment.py</url>
+          <line>245</line>
+          <option name="timeStamp" value="1656" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/uctoutiao.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="1664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiao.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="1670" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/yidianzixun.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="1672" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baidunewsapp.py</url>
+          <line>281</line>
+          <option name="timeStamp" value="1674" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baidunewsapp.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="1676" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baidunewsapp.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="1678" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/updatecomment.py</url>
+          <line>324</line>
+          <option name="timeStamp" value="1687" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/updatecomment.py</url>
+          <line>323</line>
+          <option name="timeStamp" value="1688" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/updatecomment.py</url>
+          <line>623</line>
+          <option name="timeStamp" value="1701" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/huaxidushibao.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="1721" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/huaxidushibao.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="1722" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/huaxidushibao.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="1723" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/nanfangzhoumo.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="1724" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/guojizaixian.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="1725" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinakeywordtopic.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="1730" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinakeywordtopic.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="1731" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/BaiduNewKeyword.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="1746" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/cablenews.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="1748" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/parsinghtml.py</url>
+          <line>357</line>
+          <option name="timeStamp" value="1757" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/secretchina.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="1781" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/phayul.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="1810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/SohuNews.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="1836" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/WangyiNews.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="1842" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/360News.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="1854" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/360News.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="1856" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/ChangduNews.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="1859" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/ChangduNews.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="1860" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/ChangduNews.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="1862" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/IfengNews.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="1881" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/IfengNews.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="1882" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/JiemianNews.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="1891" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/JiemianNews.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="1895" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/NanfangzhoumoNews.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="1905" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/TencentNews.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="1916" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/TencentNews.py</url>
+          <line>274</line>
+          <option name="timeStamp" value="1922" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/PengpaiNews.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="1928" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/PengpaiNews.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="1942" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/Tianyaribao.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="1955" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/Tianyaribao.py</url>
+          <line>321</line>
+          <option name="timeStamp" value="1957" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinahuatitopic.py</url>
+          <line>360</line>
+          <option name="timeStamp" value="1970" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/tibetswiss.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="2025" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/freetibetanheroes.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="2029" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/freetibetanheroes.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2030" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/qlwb.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="2043" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/qlwb.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="2044" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/aika.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="2056" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/aika.py</url>
+          <line>227</line>
+          <option name="timeStamp" value="2064" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/aika.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="2070" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/aika.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="2072" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/xicihutong.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="2077" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="2078" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/xicihutong.py</url>
+          <line>344</line>
+          <option name="timeStamp" value="2089" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/tiantiankuaibao.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="2104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baidunewsapp.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="2106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baidunewsapp.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="2107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baidunewsappkey.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="2108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baidunewsappkey.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="2114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/ZakerNews.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="2118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinahuatitopic.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="2119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinakeywordtopic.py</url>
+          <line>288</line>
+          <option name="timeStamp" value="2128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinakeywordtopic.py</url>
+          <line>286</line>
+          <option name="timeStamp" value="2129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinakeywordtopic.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="2131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/sinakeywordtopic.py</url>
+          <line>206</line>
+          <option name="timeStamp" value="2132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>901</line>
+          <option name="timeStamp" value="2137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/rtRadio.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="2138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ParePylib/testoneweb.py</url>
+          <line>951</line>
+          <option name="timeStamp" value="2142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/jinritoutiao.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="2143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/tiantiankuaibao.py</url>
+          <line>314</line>
+          <option name="timeStamp" value="2151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/geographic.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="2155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/usnews.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="2157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/oushinet.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="2160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/oushinet.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="2161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/SouthChinaNews.py</url>
+          <line>209</line>
+          <option name="timeStamp" value="2166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/bernama.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="2171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pipelines.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="2186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baiduforum.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="2188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/baiduforum.py</url>
+          <line>378</line>
+          <option name="timeStamp" value="2189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/othermodual/send_url_to_redis.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="2190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/doubanmovie.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="2199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pipelines.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="2208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/doubanmovie.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="2209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/nytimescn.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="2222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/CFTchinese.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="2241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/meilanshe.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="2257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/zaobao.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="2264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spiders/vgtime.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="2276" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="2286" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="reply_nodes" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spiders/theguardian.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/washingtonpost.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/cnaNews.py" />
+    <entry file="file://$PROJECT_DIR$/send_data_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParePylib/testoneweb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="951" selection-start-line="951" selection-end-line="951" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/TengXunNews.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/cnBBC.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/bloomberg.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/GoogleKeyword.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/telegramchannel.py" />
+    <entry file="file://$PROJECT_DIR$/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="4186" column="96" selection-start-line="4186" selection-start-column="96" selection-end-line="4186" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/twisted/internet/task.py" />
+    <entry file="file://$PROJECT_DIR$/spiders/doubanmovie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3634">
+          <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/twisted/internet/defer.py" />
+    <entry file="file://$PROJECT_DIR$/ParePylib/testoneweb2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.7/Lib/site-packages/twisted/internet/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="671" selection-start-line="671" selection-end-line="671" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelines1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/estest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="158" column="7" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/delete_spider_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/cookieupdate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1587">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/driverutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParePylib/htmlconf_all.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="10964" column="43" lean-forward="true" selection-start-line="10964" selection-start-column="43" selection-end-line="10964" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParePylib/oneweb.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Env/ParseYaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/spidertest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/cookieupdate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/add_spider_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4156">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/regexutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/ProxyUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-706">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/drivertest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/restart_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3871">
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/lunch_spider_in_scrapyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_1.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1725">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+          <folding>
+            <element signature="e#169#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1702">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/itemutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2001" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbhandle/KafkaConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="e#146#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbhandle/ESConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#144#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/content2file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperateDB/OPMysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OperateDB/OpMongodb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othermodual/send_url_to_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="131" column="47" lean-forward="true" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spiders/vgtime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.7/Lib/site-packages/scrapy/utils/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.7/Lib/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="653" selection-start-line="653" selection-end-line="653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#193#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
